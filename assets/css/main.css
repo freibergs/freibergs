@@ -25,6 +25,23 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+
+}
+
+*{
+	cursor: url('../../images/cursor.png'), auto !important;
+}
+
+
+.app {
+	position: relative;
+}
+
+.app .dot{
+	position: absolute;
+	border-radius: 50%;
+	background-color: hsl(0, 0%, 100%);
+	z-index: 4;
 }
 
 ol, ul {
@@ -961,6 +978,7 @@ input, select, textarea {
 
 				ul.icons li a:hover {
 					background-color: rgba(255, 255, 255, 0.075);
+					cursor: url('../../images/cursor_hover.png'), auto !important;				
 				}
 
 				ul.icons li a:active {
@@ -1076,6 +1094,7 @@ input, select, textarea {
 		button:hover,
 		.button:hover {
 			background-color: rgba(255, 255, 255, 0.075);
+			cursor: url('../../images/cursor_hover.png'), auto !important;
 		}
 
 		input[type="submit"]:active,
@@ -1410,6 +1429,7 @@ input, select, textarea {
 
 					#header nav ul li a:hover {
 						background-color: rgba(255, 255, 255, 0.075);
+						cursor: url('../../images/cursor_hover.png'), auto !important;
 					}
 
 					#header nav ul li a:active {
@@ -1633,6 +1653,7 @@ input, select, textarea {
 
 				#main article .close:hover:before {
 					background-color: rgba(255, 255, 255, 0.075);
+					cursor: url('../../images/cursor_hover.png'), auto !important;
 				}
 
 				#main article .close:active:before {
