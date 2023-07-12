@@ -641,7 +641,7 @@ input, select, textarea {
         opacity: 1;
     }
     50% {
-        opacity: 0.1;
+        opacity: 0.05;
     }
     100% {
         opacity: 1;
@@ -652,7 +652,7 @@ input, select, textarea {
 	text-decoration: none;
 	border-bottom: none;
 	position: relative;
-    animation: pulse 3s infinite;
+    animation: pulse 2.4s infinite;
 }
 
 	.icon2:before {
