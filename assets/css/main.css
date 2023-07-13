@@ -33,16 +33,55 @@ body {
 }
 
 
-.app {
-	position: relative;
+.tab-content {
+  display: none;
 }
+#Prasmes .tab-container {
+	display: flex;
+  }
 
-.app .dot{
+  #Prasmes .tab {
+	margin-right: 30px; /* Izmainiet atstarpi pēc vajadzības */
+  }
+
+  #Prasmes .tab h2.major {
+	border-bottom: solid 1px transparent;
+  }
+  
+  #Prasmes .tab h2.major.active {
+	border-bottom: solid 1px #ffffff;
+  }
+
+  .tab h2.major {
+	position: relative;
+  }
+  
+  .tab h2.major:after {
+	content: '';
 	position: absolute;
-	border-radius: 50%;
-	background-color: hsl(0, 0%, 100%);
-	z-index: 4;
-}
+	bottom: -2px;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background-color: #ffffff;
+	transform: scaleX(0);
+	transition: transform 0.3s ease;
+  }
+  
+  .tab h2.major.active:after {
+	transform: scaleX(1);
+  }
+
+  .tab h2.major:not(.active) {
+	transform: scale(0.8);
+	opacity: 0.5;
+	transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .tab h2.major:not(.active):hover {
+	transform: scale(0.9);
+	opacity: 0.7;
+  }
 
 ol, ul {
 	list-style: none;
@@ -982,7 +1021,7 @@ input, select, textarea {
 
 				ul.icons li a:hover {
 					background-color: rgba(255, 255, 255, 0.075);
-					cursor: url('../../images/cursor_hover.png'), auto !important;				
+					/*cursor: url('../../images/cursor_hover.png'), auto !important;*/	
 				}
 
 				ul.icons li a:active {
@@ -1098,7 +1137,7 @@ input, select, textarea {
 		button:hover,
 		.button:hover {
 			background-color: rgba(255, 255, 255, 0.075);
-			cursor: url('../../images/cursor_hover.png'), auto !important;
+			/*cursor: url('../../images/cursor_hover.png'), auto !important;*/
 		}
 
 		input[type="submit"]:active,
@@ -1433,7 +1472,7 @@ input, select, textarea {
 
 					#header nav ul li a:hover {
 						background-color: rgba(255, 255, 255, 0.075);
-						cursor: url('../../images/cursor_hover.png'), auto !important;
+						/*cursor: url('../../images/cursor_hover.png'), auto !important;*/
 					}
 
 					#header nav ul li a:active {
@@ -1657,7 +1696,7 @@ input, select, textarea {
 
 				#main article .close:hover:before {
 					background-color: rgba(255, 255, 255, 0.075);
-					cursor: url('../../images/cursor_hover.png'), auto !important;
+					/*cursor: url('../../images/cursor_hover.png'), auto !important;*/
 				}
 
 				#main article .close:active:before {
