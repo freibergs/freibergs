@@ -80,6 +80,7 @@
 							<article id="Paldies">
 								<h2 class="major">Paldies!</h2>
 								<p>Sazināšos ar Tevi cik ātri vien iespējams!</p>
+								<a href="#Kontakti" class="button">Kontakti</a>
 							</article>
 						
 						<!-- Par -->
@@ -89,6 +90,7 @@
 							<p>👋 26 gadus vecs (jauns?!) programmētājs no galvaspilsētas.</p>
 <p>👶 Mani kodēšanas sākumi bija jau aptuveni 8 gados, kad spēlējos ar Visual Basic. Jā, es biju diezgan agrīns programmēšanas brīnums.</p>
 <p>🏫 Mans izglītības ceļš tālāk aizveda uz pašu Rīgas Valsts 1. ģimnāziju. Tiesa gan, visu, ko zinu par kodēšanu, esmu iemācījies pats.</p>
+<div class="cv"><p><a href="CV_RihardsF.pdf" class="button">Mans CV</a></p></div>
 <p>💻 Brīvajā laikā, kad nekodēju (arī tā gadās), man patīk spēlēt videospēles un apmeklēt sporta zāli. Lūdzu, nejūties pārsteigts -  mēs programmētāji arī dažreiz izkustamies!</p>
 <p>👟 Vasarā dievinu staigāt Krokšos. Jā, es zinu, dažiem tas varētu likties stulbi, bet man patīk un ir ērti...</p>
 <p>☕ Es esmu kafijas cilvēks. Kafija pret tēju ir kā Python pret JavaScript - mīlu abus, bet vienu tomēr vairāk.</p>
@@ -105,19 +107,19 @@ print(Tea().taste())	      </code>
 						<!-- Kontakti -->
 							<article id="Kontakti">
 								<h2 class="major">Kontakti</h2>
-								<form method="post" action="https://forms.un-static.com/forms/6de055b9ee040ceeed8e61a5f7d7c735b1a8558d">
+								<form method="post" autocomplete="off" action="https://forms.un-static.com/forms/6de055b9ee040ceeed8e61a5f7d7c735b1a8558d">
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Vārds</label>
-											<input type="text" name="name" id="name" required/>
+											<input type="text" name="name" id="name" required oninvalid="this.setCustomValidity('Es gribu zināt, kā tevi sauc...')" oninput="this.setCustomValidity('')"/>
 										</div>
 										<div class="field half">
 											<label for="email">E-pasts</label>
-											<input type="text" name="email" id="email" required/>
+											<input type="text" name="email" id="email" required oninvalid="this.setCustomValidity('Šādi es nezināšu, kam atbildēt...')" oninput="this.setCustomValidity('')"/>
 										</div>
 										<div class="field">
 											<label for="message">Ziņa</label>
-											<textarea name="message" id="message" rows="4" required></textarea>
+											<textarea name="message" id="message" rows="4" required oninvalid="this.setCustomValidity('Tukšas ziņas nav interesantas...')" oninput="this.setCustomValidity('')"></textarea>
 										</div>
 									</div>
 									<ul class="actions">

@@ -66,6 +66,10 @@ body {
 	-webkit-text-size-adjust: none;
 }
 
+.cv {
+    text-align: center;
+}
+
 mark {
 	background-color: transparent;
 	color: inherit;
