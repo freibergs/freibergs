@@ -1777,3 +1777,40 @@ input, select, textarea {
 	}
 
 /* Vēl kods */
+
+.game-question {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.game-answers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.game-answer {
+    width: 45%;
+    display: flex;
+    flex-direction: column;  /* Mainīts uz kolonnu */
+    align-items: center;  /* Horizontālā centrēšana */
+    justify-content: center;  /* Vertikālā centrēšana */
+    margin: 5px;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;  /* Centrē tekstu */
+}
+
+
+.game-answer:hover {
+    background-color: #555;
+}
