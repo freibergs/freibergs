@@ -1814,3 +1814,9 @@ input, select, textarea {
 .game-answer:hover {
     background-color: #555;
 }
+
+.quiz-icon {
+	margin-right: -4px;  /* samazināta atstarpe */
+	position: relative;  /* relatīvā pozicionēšana */
+	top: 1px;            /* 2 pikseļi uz leju */
+}
