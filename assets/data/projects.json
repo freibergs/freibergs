@@ -1,22 +1,7 @@
 [
-    {
-        "title": "amerify.lv",
-        "image": "images/amerify.png",
-        "description": "amerify.lv ir manis paša un draudzenes projekts, kurā pārdodam amerikāņu gardumus, ieskaitot Kernel Season's popkorna garšvielas, kuras Latvijas iedzīvotāji pazīst kā nu jau bijušās kino garšvielas - īstās un vienīgās."
-    },
-    {
-        "title": "protest-store.lv",
-        "image": "images/protest.png",
-        "description": "protest-store.lv veidoju savai draudzenei, lai palīdzētu ar apģērbu biznesu tādā veidā, kādā māku. Gala rezultāts - košs, pārskatāms un responsīvs dizains, kas nevienam apmeklētājam neliks vilties."
-    },
-    {
-        "title": "forgardenandmore.com",
-        "image": "images/forgarden.png",
-        "description": "forgardenandmore.com radās kā latviešu biznesa apņēmīga doma ieiet Īrijā ar koka produktiem dārzam. Šo lapu veidoju ar domu par maksimālu pārskatamību un ērtību apmeklētājiem. Tajā ir izmantoti dažādi pielāgoti risinājumu specifiski klienta vēlmēm."
-    },
-    {
-        "title": "mieganams.lv",
-        "image": "images/mieganams.png",
-        "description": "Projekts mieganams.lv pie manis nokļuva jau kā pabeigta mājaslapa, kurai nepieciešami neskaitāmi uzlabojumi. Kopš tā laika esmu uzlabojis lapas ātrdarbību, padarījis mobilo dizainu responsīvu, atradis maksājumu un piegādes metožu risinājumus u.c."
-    }
+	{
+		"title": "amerify.lv",
+		"image": "images/amerify.png",
+		"description": "amerify.lv ir manis paša un draudzenes projekts, kurā pārdodam amerikāņu gardumus, ieskaitot Kernel Season's popkorna garšvielas, kuras Latvijas iedzīvotāji pazīst kā nu jau bijušās kino garšvielas - īstās un vienīgās."
+	}
 ]
