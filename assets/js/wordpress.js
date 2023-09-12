@@ -5,9 +5,9 @@ fetch('assets/data/projects.json')
         
         projects.forEach(project => {
             const fullLink = `https://${project.title}`;
-            const updatedDescription = project.description.replace(/(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?/gi, function(match) {
-                return `<a href="https://${match}">${match}</a>`;
-            });
+            const updatedDescription = project.description.replace(/(([\da-z\.-]+)\.(lv|com))/gi, function(match) {
+				return `<a href="https://${match}">${match}</a>`;
+			});
 
             const projectHTML = `
                 <h3>${project.title}</h3>
