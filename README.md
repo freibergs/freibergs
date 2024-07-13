@@ -6,12 +6,6 @@
 
 ### 🛠️ Skills
 
-- **HTML5** 🌐  
-  2 years of experience. Developed various websites and portfolios using HTML5, including API integration and semantic elements.
-
-- **CSS** 🎨  
-  4 years of experience. Created and improved designs for numerous websites using CSS3 animations and building responsive designs.
-
 - **PHP** 🐘  
   5 years of experience. Built several dynamic web projects using PHP in diverse ways.
 
