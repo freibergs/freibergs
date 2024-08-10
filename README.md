@@ -1,6 +1,6 @@
 # guess who's there?
 <img src="https://i.imgur.com/pYbaeCi.png" style="width:100%;"/>
-<img src="https://myreadme.vercel.app/api/embed/freibergs?panels=userstatistics,toprepositories,toplanguages,commitgraph" alt="reimaginedreadme" />
+<img src="https://myreadme.vercel.app/api/embed/freibergs?panels=userstatistics,toprepositories,toplanguages,commitgraph" alt="reimaginedreadme" width="100%" />
 
 ## 🚀 About Me
 
