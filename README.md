@@ -31,3 +31,5 @@ With 9 years of experience in Python, it's my primary language of choice. I've m
 
 - **C#** 💻  
   1 year of experience in developing Windows applications and exploring .NET framework capabilities.
+  
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
