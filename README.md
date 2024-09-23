@@ -1,24 +1,33 @@
 # guess who's there?
 <img src="https://myreadme.vercel.app/api/embed/freibergs?panels=userstatistics,toprepositories,toplanguages,commitgraph" alt="reimaginedreadme" width="100%" />
 
-## 🚀 About Me
+# 🚀 About Me
 
-### 🛠️ Skills
+I'm a passionate software developer with a diverse skill set and a strong focus on backend development. My expertise lies in creating robust web applications and implementing efficient algorithms.
+
+## 🛠️ Core Competencies
+
+### Python & Flask 🐍
+With 9 years of experience in Python, it's my primary language of choice. I've mastered various aspects of Python development, including:
+- Building scalable web applications using Flask
+- Implementing RESTful APIs
+- Data analysis and visualization
+- Machine learning and AI integration
+- Task automation and scripting
+
+### Other Technical Skills
 
 - **PHP** 🐘  
-  5 years of experience. Built several dynamic web projects using PHP in diverse ways.
+  5 years of experience in developing dynamic web applications and server-side scripting.
 
 - **JavaScript** ⚡  
-  3 years of experience. Developed mainly interactive UX/UI using JavaScript and its libraries.
+  3 years of experience in front-end development, focusing on creating interactive and responsive user interfaces.
 
 - **React** ⚛️  
-  1 year of experience. Experimented with interesting landing pages and mobile projects.
-
-- **Python** 🐍  
-  9 years of experience. Python is my favorite language - mastered many aspects and also worked with machine learning algorithms.
+  1 year of experience in building modern, component-based user interfaces for web and mobile applications.
 
 - **C++** 🕹️  
-  6 months of experience. Studied algorithm efficiency and worked on simple games and online game cheats (guilty) using C++.
+  6 months of experience, with a focus on algorithm optimization and game development.
 
 - **C#** 💻  
-  1 year of experience. Created sample Windows applications using C#.
+  1 year of experience in developing Windows applications and exploring .NET framework capabilities.
