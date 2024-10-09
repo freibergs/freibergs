@@ -1,6 +1,3 @@
-# guess who's there?
-<img src="https://myreadme.vercel.app/api/embed/freibergs?panels=userstatistics,toprepositories,toplanguages,commitgraph" alt="reimaginedreadme" width="100%" />
-
 # 🚀 About Me
 
 I'm a passionate software developer with a diverse skill set and a strong focus on backend development. My expertise lies in creating robust web applications and implementing efficient algorithms.
